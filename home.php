@@ -42,7 +42,7 @@
                 <div class="card">
 
                     <div class="card-header">
-                        Menu
+                        <b> Olá, Você está logado como <span class="text-info"><?= $_SESSION["perfil"] ?></span> </b>
                     </div>
                     
                     <div class="card-body">
