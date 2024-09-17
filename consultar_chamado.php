@@ -24,9 +24,9 @@
     //Fechando o Arquivo
     fclose($arquivo);
 
-    echo "<pre>";
+    /*echo "<pre>";
     print_r($chamados);
-    echo "</pre>";
+    echo "</pre>";*/
 
 ?>
 
