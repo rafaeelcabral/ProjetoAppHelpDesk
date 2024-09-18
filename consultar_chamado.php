@@ -115,9 +115,11 @@
                                 <a class="btn btn-lg btn-warning btn-block" href="home.php">Voltar</a> 
                             </div>
 
-                            <div class="col-6">
-                                <a class="btn btn-lg btn-danger btn-block" href="scripts/excluir_chamados.php">Excluir Chamados</a>
-                            </div>
+                            <?php if($_SESSION['perfil'] == "Administrativo") { ?>
+                                <div class="col-6">
+                                    <a class="btn btn-lg btn-danger btn-block" href="scripts/excluir_chamados.php">Excluir Chamados</a>
+                                </div>
+                            <?php } ?>    
                         </div>
 
                     </div>
