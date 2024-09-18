@@ -11,4 +11,3 @@
 - Encerrando a Sessão (unset() / session_destroy());
 
 - Abertura(fopen), Escrita(fwrite) e Fechamento(fclose) de Arquivos de Texto;
-
